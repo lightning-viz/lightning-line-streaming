@@ -1,0 +1,18 @@
+{
+  "name": "lightning-line-streaming",
+  "version": "0.0.1",
+  "dependencies": {
+    "lightning-line": "^0.0.8",
+    "lodash": "^3.8.0"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "lightning": {
+    "name": "line-streaming",
+    "isStreaming": true
+  }
+}
