@@ -6,6 +6,7 @@ var Visualization = Line.extend({
 
     getDefaultOptions: function() {
         return {
+            zoom: false,
             maxLength: 50
         }
     },
