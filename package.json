@@ -1,6 +1,6 @@
 {
   "name": "lightning-line-streaming",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {
     "lightning-line": "^0.0.12",
     "lodash": "^3.8.0"
