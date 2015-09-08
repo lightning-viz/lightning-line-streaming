@@ -5,8 +5,7 @@ lgn = Lightning()
 
 series = random.randn(5,10)
 
-viz = lgn.linestreaming(init)
+viz = lgn.linestreaming(series)
 
 for _ in range(100):
-	series = random.randn(5, 1)
-	viz.append(series)
+	viz.append(random.randn(5, 1))
